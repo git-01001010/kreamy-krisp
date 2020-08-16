@@ -1,0 +1,74 @@
+.menu-page-flex {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-item {
+    position: relative;
+    padding: 1rem;
+}
+
+
+.menu-item h2 {
+    position: absolute;
+    top: 50%;
+    transform: translatey(-50%);
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: #fff;
+    font-size: 3.6rem;
+    padding: 0;
+}
+
+.image {
+    padding: 1rem;
+}
+
+
+   .page-title {
+    position: absolute;
+    top: 0;
+}
+
+.menu-title h2 {
+    font-family: 'Comfortaa', cursive;
+    font-size: 3.6rem;
+    color: black;
+    text-align: center;
+    margin-top: 23rem;
+    padding: 1rem;
+}
+
+
+.main-menu {
+    margin-top: 10rem;
+}
+
+.main-menu h2 {
+    text-align: center;
+    font-size: 3.6rem;
+    border-bottom: 1px solid black;
+    font-family: 'Amita', cursive;
+}
+
+div.para {
+    font-size: 1.8rem;
+    padding: 2rem 2rem 10rem 2rem;
+}
+
+.menu-heading-image {
+    position: relative;
+    top: 22rem;
+    background-image: url("https://iili.io/dwhPQS.webp");
+    height: 60vh;
+    width: 90%;
+    background-size: cover;
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
+}
