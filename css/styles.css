@@ -140,7 +140,7 @@ button:hover {
     color: white;
 }
 
-.hero-image {
+.hero {
     position: relative;
     margin-left: auto;
     margin-right: auto;
@@ -155,7 +155,7 @@ button:hover {
    background-size: cover;
 }
 
-.hero-image h2 {
+.hero h2 {
     font-family: 'Amita', cursive;
     font-size: 3.6rem;
     transition: 900ms ease-in-out;
@@ -443,7 +443,7 @@ div.heading-image {
 }
 
 .loc-heading-image {
-        position: relative;
+    position: relative;
     top: 22rem;
     background-image: url("https://www.brownstoner.com/wp-content/uploads/2020/07/downtown-brooklyn-9-dekalb-dime-savings-supertall-july-2020-sdevries-1.jpg");
     height: 60vh;
