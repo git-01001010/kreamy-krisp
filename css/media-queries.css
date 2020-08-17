@@ -35,19 +35,22 @@
    background-size: cover;
 }
 
-    .page-title {
+    /* .page-title {
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     margin-left: auto;
     margin-right: auto;
-    font-size: 2.5rem;
+    font-size: 10rem;
     color: white;
+    background-color: rgba(214, 157, 157, 0.562);
     text-align: center;
-    padding: 3rem 0 ;
+    padding: 1.5rem 0 ;
     transition: all 200ms ease-in-out;
-}
+} */
+
+
 
 #page-footer {
     background-color: #ad9892;
@@ -71,6 +74,15 @@
 
 .main h2 {
     font-family: 'Comfortaa', cursive;
+}
+
+.social-media {
+  width: 67%;
+  /* height: 4rem; */
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 1rem;
+  text-align: center;
 }
 
 #page-footer li a {
@@ -112,8 +124,8 @@
     margin-right: auto;
 }
 
-.main-menu {
-    margin-top: 8rem;
+.main-menu h2 {
+    font-size: 3.6rem;
 }
 
 .main-menu {
@@ -121,6 +133,7 @@
 }
 
 .menu-title h2 {
+    font-family: 'Open Sans', sans-serif;
     font-size: 3.6rem;
     color: black;
     text-align: center;
@@ -165,7 +178,7 @@
 }
 
 .about-title h2 {
-    font-family: 'Comfortaa', cursive;
+    font-family: 'Open Sans', sans-serif;
     margin-top: 10rem;
     font-size: 3.6rem;
     transition: 900ms ease-in-out;
@@ -173,13 +186,12 @@
 }
 
 div.loc-title h2 {
+    font-family: 'Open Sans', sans-serif;
     margin-top: 10rem;
     font-size: 3.6rem;
     transition: 900ms ease-in-out;
     text-align: center;
 }
-
-
 
 
 div.heading-image {
@@ -206,5 +218,13 @@ div.heading-image {
     background-position: center;
     margin-left: auto;
     margin-right: auto;
+}
+
+.reviews-title h2 {
+    margin-top: 23rem;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 3.6rem;
+    transition: 900ms ease-in-out;
+    text-align: center;
 }
 }
